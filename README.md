@@ -2,4 +2,4 @@
 Mod 1: The DOM Based Game
 Connect Fizzour
 
-Testing
+Slightly modified theme of the classic game, Connect 4!
