@@ -118,9 +118,18 @@ function setWinner(r, c) {
     let theVictoriousOne = document.getElementById("theVictoriousOne");
     if (theBlock[r][c] == playerC) {
         theVictoriousOne.innerText = "C's Up!";
+
     } else {
         theVictoriousOne.innerText = "B's Up!";
     }
 
     gameOver = true;
 }
+
+let outro = document.getElementById("outro");
+        function playOutro() {
+            let audio = new Audio("jiggadrop.wav");
+                audio.play();
+        }
+        outro.addEventListener("click", playOutro);
+
