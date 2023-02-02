@@ -133,3 +133,9 @@ let outro = document.getElementById("outro");
         }
         outro.addEventListener("click", playOutro);
 
+let csup = document.getElementById("csup");
+        function playCsup() {
+            let audio = new Audio("csup.mp3");
+                audio.play();
+        }
+        csup.addEventListener("")
