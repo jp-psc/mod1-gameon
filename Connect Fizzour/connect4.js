@@ -24,7 +24,17 @@ function setGame() {
             tile.id = r.toString() + "-" + c.toString();
             tile.classList.add("tile");
             document.getElementById("theBlock").append(tile);
+
+            tile.addEventListener("click", setPiece);
         }
         theBlock.push(row);
     }
+}
+
+function setPiece() {
+    if (gameOver) {
+        return;
+    }
+
+    
 }

@@ -14,3 +14,22 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+.tile {
+    height: 80px;
+    width: 80px;
+    
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+    
+    border: 5px solid darkgray;
+}
+
+.blue-soldier {
+    background-color: blue;
+}
+
+.red-soldier {
+    background-color: red;
+}
