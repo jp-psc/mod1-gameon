@@ -118,9 +118,11 @@ function setWinner(r, c) {
     let theVictoriousOne = document.getElementById("theVictoriousOne");
     if (theBlock[r][c] == playerC) {
         theVictoriousOne.innerText = "C's Up!";
+        window.alert("You won!")
 
     } else {
         theVictoriousOne.innerText = "B's Up!";
+        window.alert("You won!")
     }
 
     gameOver = true;
