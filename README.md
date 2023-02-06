@@ -15,3 +15,7 @@ but am researching possible solutions currently.
 The actual link to the repo is: https://github.com/jpxyzog/mod1-gameon.
 
 While completed to meet the project requirements, I will be updating and adding additional features in the near future.
+
+---
+permalink: /index.html
+---
